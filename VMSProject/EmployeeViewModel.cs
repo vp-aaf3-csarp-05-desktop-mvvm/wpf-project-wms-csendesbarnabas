@@ -6,6 +6,11 @@
     internal class EmployeeViewModel
     {
         /// <summary>
+        /// Szabadnapok száma
+        /// </summary>
+        private static int VacationDay = 45;
+
+        /// <summary>
         /// Dolgozó neve
         /// </summary>
         public string Name { get; } = "Nagy Anna";
