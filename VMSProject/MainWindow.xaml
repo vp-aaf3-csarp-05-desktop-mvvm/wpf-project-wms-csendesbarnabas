@@ -22,6 +22,8 @@
                 <TextBlock Text="{Binding TaxNumber}" Margin="5 0 0 0"/>
                 <Label FontWeight="Bold">Kivett szabadnapok száma:</Label>
                 <TextBlock Text="{Binding DaysOff}" Margin="5 0 0 0"/>
+                <Label>Hátralévő szabadnapok száma:</Label>
+                <TextBlock Text="{Binding RemainingDays}"/>
             </StackPanel>
         </Border>
     </WrapPanel>
