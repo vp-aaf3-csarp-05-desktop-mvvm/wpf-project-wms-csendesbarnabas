@@ -24,5 +24,10 @@
         /// Kivett szabadnapok száma
         /// </summary>
         public int DaysOff { get; } = 6;
+
+        /// <summary>
+        /// Hátralévő szabadnapok száma
+        /// </summary>
+        public int RemainingDays => VacationDay - DaysOff;
     }
 }
